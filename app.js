@@ -11,7 +11,7 @@ const paymentRoutes=require('./src/routes/paymentroutes');
 const cors=require('cors');
 app.use(cors({
     withCredentials:true,
-    origin:'http://localhost:3000'
+    origin:'https://movie-ticket-booking-cyan-nine.vercel.app/'
 }));
 const connectDB=require('./src/config/dbconfig');
 
