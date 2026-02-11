@@ -11,7 +11,7 @@ const paymentRoutes=require('./src/routes/paymentroutes');
 const cors=require('cors');
 app.use(cors({
     withCredentials:true,
-    origin:'http://localhost:3001'
+    origin:'http://localhost:3000'
 }));
 const connectDB=require('./src/config/dbconfig');
 
